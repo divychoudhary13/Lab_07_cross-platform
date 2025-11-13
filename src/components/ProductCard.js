@@ -32,9 +32,9 @@ Alert.alert(
 return (
 <View style={styles.card}>
 <Image
-source={{ uri: product.image }}
-style={styles.image}
-defaultSource={require('../../assets/placeholder.png')}
+source={require('../../assets/placeholder.png')}
+style={{width:100 , height: 100 , backgroundcolor: 'red'}}
+resizeMode='contain'
 />
 <View style={styles.details}>
 <Text style={styles.title}>{product.title}</Text>
